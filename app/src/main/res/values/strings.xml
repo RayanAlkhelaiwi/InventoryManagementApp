@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">Inventory Management App</string>
+
+    <!-- Label for overflow menu option that inserts fake item data into the app -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all items data in the app -->
+    <string name="action_delete_all_entries">Delete All Items</string>
+
+    <!-- Title for the activity to add a new item -->
+    <string name="editor_activity_title_new_item">Add an Item</string>
+
+    <!-- Title for the activity to edit an item -->
+    <string name="editor_activity_title_edit_item">Edit Item</string>
+
+    <!-- Label for editor menu option to save an item and leave editor -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that orders more items (Products) from the supplier, via an email -->
+    <string name="action_order_more">Order More</string>
+
+    <!-- Label for editor overflow menu option that deletes the current item -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Label for the name of the product in the editor -->
+    <string name="product_name">Name of Product</string>
+
+    <!-- Toast message for a successful saving -->
+    <string name="insert_successful_toast">Successfully saved!</string>
+
+    <!-- Toast message for an error in the saving -->
+    <string name="insert_fail_toast">Error with saving the item!</string>
+
+    <!-- Warning toast for a requirement -->
+    <string name="input_requirement">Item requires a</string>
+
+    <!-- Toast message for an unsupported deletion -->
+    <string name="deletion_not_supported">Deletion is not supported for</string>
+
+    <!-- Toast message for an unknown uri for a getType -->
+    <string name="get_type_unknown_uri">Unknown URI</string>
+
+    <!-- Completion of a toast message for a getType -->
+    <string name="get_type_with_match">with match</string>
+
+    <!-- Title text for the empty view, which describes the empty dog house image -->
+    <string name="empty_view_title_text">It\'s a bit lonely here…</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add an item -->
+    <string name="empty_view_subtitle_text">Get started by adding an item</string>
+
+    <!-- Toast message for an unchanged state of an item -->
+    <string name="save_item_update_fail">No changes to the item!</string>
+
+    <!-- Toast message for a successful updating of an item -->
+    <string name="save_item_update_successful">Successfully updated!</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current item -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Toast message in editor when current item was successfully deleted -->
+    <string name="editor_delete_item_successful">Item deleted</string>
+
+    <!-- Toast message in editor when current item has failed to be deleted -->
+    <string name="editor_delete_item_failed">Error with deleting item</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current item -->
+    <string name="delete_dialog_msg">Delete this item?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current item -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current item -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Number of products in the editor activity -->
+    <string name="product_quantity">Quantity</string>
+
+    <!-- Price of the product in editor activity -->
+    <string name="product_price">Price</string>
+
+    <!-- insertion of image in editor activity -->
+    <string name="insert_image">Insert an Image</string>
+
+    <!-- list view price text -->
+    <string name="price_list_view">Price $</string>
+
+    <!-- list view quantity text (&#160; for a space) -->
+    <string name="quantity_list_view">Quantity:&#160;</string>
+
+    <!-- Order More mail intent subject -->
+    <string name="order_subject_mail_intent">Order the following of</string>
+</resources>
